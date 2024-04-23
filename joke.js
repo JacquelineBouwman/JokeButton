@@ -1,0 +1,5 @@
+
+
+function jokeAlert(){
+    alert("Joke")
+}
