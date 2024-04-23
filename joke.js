@@ -2,7 +2,7 @@ function jokeAlert(){
     alert("Joke")
 }
 
-function quoteRandomizer(){
+function quoteList(){
     var jokes = {
         "1": `Why don't skeletons fight each other? They don't have the guts.`,
         "2": `How does a penguin build its house? Igloos it together.`,
@@ -36,3 +36,5 @@ function quoteRandomizer(){
         "30": `What do you call a magic dog? A labracadabrador!`,
     }
 }
+
+function quoteRandommizer(){}
