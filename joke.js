@@ -1,4 +1,5 @@
 function jokeAlert(){
+    quoteRandommizer();
     alert("Joke")
 }
 
@@ -37,4 +38,12 @@ function quoteList(){
     }
 }
 
-function quoteRandommizer(){}
+function quoteRandommizer(){
+    quoteList();
+    var jokeNumber = object.keys(jokes);
+    var jokeNumber = jokes[Math.floor(Math.random() * jokes.keys)];
+
+    var displayedJoke = displayedJoke[jokes];
+
+    document.getElementById();
+}
