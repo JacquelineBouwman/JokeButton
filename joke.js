@@ -1,7 +1,5 @@
-
-
-function jokeList(){
-    var jokes = {
+function jokeGenerator(){
+    var jokesList = {
         "1": `Why don't skeletons fight each other? They don't have the guts.`,
         "2": `How does a penguin build its house? Igloos it together.`,
         "3": `Why did the scarecrow win an award? Because he was outstanding in his field.`,
@@ -33,14 +31,11 @@ function jokeList(){
         "29": `How do you make holy water? You boil the hell out of it!`,
         "30": `What do you call a magic dog? A labracadabrador!`,
     }
-}
 
-function jokeRandommizer(){
-    jokeList();
-    var jokeNumber = object.keys(jokes);
-    var jokeNumber = jokes[Math.floor(Math.random() * jokes.keys)];
+    var jokeNumber = Object.keys(jokesList);
+    var joke = jokeNumber[Math.floor(Math.random() * jokeNumber.length)];
 
-    var displayedJoke = displayedJoke[jokes];
+    var shownJoke = jokesList[joke];
 
-    document.getElementById();
+    document.getElementById("jokeText").innerHTML = shownJoke;
 }

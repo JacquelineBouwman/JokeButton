@@ -43,11 +43,13 @@ body {
 
   p {
     text-align: center;
-    margin-left: 36%;
+    margin-left: 33%;
     margin-top: 8%;
     color: white;
     position: absolute;
     font-size: 2rem;
+    word-wrap: break-word;
+    max-width: 35rem;
   }
 }
 
