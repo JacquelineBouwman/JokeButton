@@ -1,26 +1,55 @@
-@media screen and (max-width: 1536px){
-    h1 {
-        text-align: center;
-        font-size: 6rem;
-    }
-    
-    .buttonContainer {
-        text-align: center;
-        padding-top: 5rem;
-    }
+body {
+  background-image: url("https://www.gamewallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_genshin_impact_fan_art_02_2560x1080.jpg&height=506&sharpen");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    #jokeButton {
-        padding: 5rem 20rem;
-        border-radius: 25px;
-        font-size: 8rem;
-        background-color: rgb(241, 241, 114);
-    }
+@media screen and (max-width: 1536px) {
+  h1 {
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 1rem;
+    color: rgb(253, 253, 253);
+  }
 
-    #jokeButton:hover{
-        background-color: aqua;
-    }
+  .buttonContainer {
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .jokeButton {
+    padding: .1rem 4rem;
+    border-radius: 25px;
+    font-size: 5rem;
+    background-color: #4eb187;
+    margin-top: 25rem;
+    color: white;
+  }
+
+  .jokeButton:hover {
+    background-color: #4ea9b1;
+  }
+
+  .jokeCard {
+    position: absolute;
+    width: 50rem;
+    height: 28rem;
+    margin-left: 25%;
+    margin-top: -4rem;
+    background-color: rgba(255, 255, 255, 0.15);  
+    backdrop-filter: blur(10px);
+    opacity: 0.5;
+  }
+
+  p {
+    text-align: center;
+    margin-left: 36%;
+    margin-top: 8%;
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 3440px) {
-    
 }

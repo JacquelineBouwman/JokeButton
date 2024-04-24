@@ -1,9 +1,6 @@
-function jokeAlert(){
-    quoteRandommizer();
-    alert("Joke")
-}
 
-function quoteList(){
+
+function jokeList(){
     var jokes = {
         "1": `Why don't skeletons fight each other? They don't have the guts.`,
         "2": `How does a penguin build its house? Igloos it together.`,
@@ -38,8 +35,8 @@ function quoteList(){
     }
 }
 
-function quoteRandommizer(){
-    quoteList();
+function jokeRandommizer(){
+    jokeList();
     var jokeNumber = object.keys(jokes);
     var jokeNumber = jokes[Math.floor(Math.random() * jokes.keys)];
 
