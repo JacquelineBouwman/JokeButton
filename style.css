@@ -39,6 +39,8 @@ body {
     background-color: rgba(255, 255, 255, 0.15);  
     backdrop-filter: blur(10px);
     opacity: 0.5;
+    border: solid;
+    border-color: rgb(41, 59, 57);
   }
 
   p {
@@ -53,5 +55,53 @@ body {
   }
 }
 
-@media screen and (max-width: 3440px) {
+@media screen and (min-width: 3440px) {
+    h1 {
+        text-align: center;
+        font-size: 600%;
+        margin-top: 1rem;
+        color: rgb(253, 253, 253);
+      }
+    
+      .buttonContainer {
+        text-align: center;
+        padding-top: 12%;
+      }
+    
+      .jokeButton {
+        padding: .5rem 10rem;
+        border-radius: 25px;
+        font-size: 5rem;
+        background-color: #4eb187;
+        margin-top: 12%;
+        color: white;
+      }
+    
+      .jokeButton:hover {
+        background-color: #4ea9b1;
+      }
+    
+      .jokeCard {
+        position: absolute;
+        width: 55%;
+        height: 60%;
+        margin-left: 25%;
+        margin-top: -1%;
+        background-color: rgba(255, 255, 255, 0.15);  
+        backdrop-filter: blur(10px);
+        opacity: 0.5;
+        border: solid;
+        border-color: rgb(41, 59, 57);
+      }
+    
+      p {
+        text-align: center;
+        margin-left: 43%;
+        margin-top: 9%;
+        color: white;
+        position: absolute;
+        font-size: 4rem;
+        word-wrap: break-word;
+        max-width: 35rem;
+      }
 }

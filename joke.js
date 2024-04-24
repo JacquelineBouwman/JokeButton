@@ -24,7 +24,7 @@ function jokeGenerator(){
         "22": `Why was the math book sad? It had too many problems.`,
         "23": `What do you call a group of musical whales? An orca-stra!`,
         "24": `How do you make a tissue dance? You put a little boogie in it.`,
-        "25": `What did one wall say to the other wall? "I'll meet you at the corner.`,
+        "25": `What did one wall say to the other wall? "I'll meet you at the corner."`,
         "26": `What did the left eye say to the right eye? "Between you and me, something smells.`,
         "27": `Why couldn't the bicycle stand up by itself? It was two-tired.`,
         "28": `What do you call a bear with no teeth? A gummy bear!`,
